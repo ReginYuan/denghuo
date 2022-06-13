@@ -34,7 +34,7 @@ export function filterdate(val) {
 		}
 		return '前天' + h + ':' + m
 	} else {
-		//大于两天
+		//大于两天时间
 		return Y + '/' + M + '/' + D
 	}
 }
