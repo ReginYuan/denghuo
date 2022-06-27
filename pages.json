@@ -7,6 +7,36 @@
 				"navigationStyle": "custom"
 			}
 		}
+        ,{
+            "path" : "pages/login/index",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/register/index",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/index",
+            "style" :                                                                                    
+            {
+                // "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

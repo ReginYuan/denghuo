@@ -9,7 +9,7 @@
 			</view>
 			<view class="content-top-bar-right">
 				<view class="content-top-bar-right-search">
-					<image src="../../static/index/search@2x.png" mode="widthFix"></image>
+					<image src="../../static/index/search.png" mode="widthFix"></image>
 				</view>
 				<view class="content-top-bar-right-add">
 					<image src="../../static/index/add group@2x.png" mode="widthFix"></image>
@@ -82,7 +82,7 @@
 			this.getFriends()
 		},
 		methods: {
-			changeTime:function(date){
+			changeTime: function(date) {
 				return filterdate(date)
 			},
 			getFriends: function() {
@@ -100,11 +100,13 @@
 		align-items: center;
 		justify-content: center;
 		width: 100%;
+		padding-top: var(--status-bar-height);
+		padding-bottom: 66rpx;
 
 		&-top-bar {
 			position: fixed;
 			top: 0;
-			left: 0%;
+			left: 0;
 			display: flex;
 			flex-direction: row;
 			box-sizing: border-box;
@@ -114,6 +116,8 @@
 			justify-content: space-between;
 			background-color: $uni-bg-color;
 			border-bottom: 2rpx solid $uni-border-color;
+			padding-top: var(--status-bar-height);
+			z-index: 100;
 
 			&-left {
 				margin-left: 32rpx;
